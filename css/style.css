@@ -1,0 +1,164 @@
+@charset "UTF-8";
+body {
+     margin: 0;
+     background: url('../images/background.png');
+     background-repeat:no-repeat;
+    display: compact;
+}
+
+.navbar {
+	background-color: transparent;
+  border: 0px;
+}
+
+.top-banner {
+  margin-top: 25vh;
+  text-align: center;
+  color: white;
+}
+
+.feature-banner {
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+}
+
+.selus-banner{
+  color:#2a5da3;
+}
+
+.banner-button{
+  position: relative;
+  top:40px;
+  color:white;
+  padding: 10px 50px;
+  border: 1px solid #153b6d;
+  border-radius: 20px;
+}
+
+.banner-button:hover{
+  text-decoration: none;
+}
+
+.three-screens{
+  margin-top: 100px;
+}
+
+.selus-music{
+  margin-top: 130px;
+  margin-left: 80px;
+  color:white;
+}
+
+.grey-paragraph{
+   color:grey;
+    line-height: 150%
+}
+
+.feature-block{
+  margin-left: 50px;
+  margin-top: 50px;
+  color:white;
+}
+
+.fading-phones {
+  margin-top: -10%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 100;
+}
+
+.download-button {
+  margin-top: -10%;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+.carousel-inner{
+  opacity: 0.2;
+   background-image: url(../images/carouselbackground.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height:400px;
+  }
+
+  .carousel-caption{
+     top:1em; 
+    }
+
+.closing-link {
+  padding: 0px 10px;
+  display: inline-block;
+}
+
+.copyright{
+   display: inline-block;
+  float:right 
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.face {
+  padding-left:47%;
+  padding-top:60px;
+}
+
+.carousel-name{
+  padding-top:0px
+}
+
+.nav-img{
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.jumbotron {
+	background-color: transparent;
+	background: transparent:
+	border-color: transparent:
+}
+
+.headphones {
+	width: 42.4%;
+	height: 9.3%;
+}
+
+.logo-font {
+	 font-family: Montserrat;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 70px;
+	color: #2a5da3;
+}
+
+.navbar-header {
+  float: none;
+}
+.navbar-toggle {
+  display: block;
+  background-color: #2a5ea4;
+  height: 40px
+}
+.navbar-collapse {
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar-nav {
+  float: none!important;
+  margin: 7.5px -15px;
+}
+.navbar-nav>li {
+  float: none;
+}
+.navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
